@@ -2,6 +2,7 @@
 
 add_theme_support( 'menus' );
 add_theme_support( 'post-thumbnails' );
+remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
 
 function wpt_excerpt_length ( $length ) {
 	return 16;
