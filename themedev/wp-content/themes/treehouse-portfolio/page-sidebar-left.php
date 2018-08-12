@@ -26,13 +26,8 @@
         </div>
       </div>
 
-<!-- Secondary Column -->
+      <?php get_sidebar( 'page' ); ?>
 
-    <div class="small-12 medium-4 medium-pull-8 columns">
-      <div class="secondary">
-        <h2 class="module-heading">SideBar</h2>
-      </div>
-    </div>
   </div>
 </div>
 </section>
