@@ -1,20 +1,11 @@
-jQuery(document).ready(function( $ ) {
+jQuery(document).ready(function($) {
 
 	$(document).foundation();
+	
 	$( ".nav-toggle" ).click(function() {
-  		$(this).toggleClass("open");
-  		$("nav").fadeToggle(100);
+	  $(this).toggleClass("open");
+	  $("nav").fadeToggle(100);
 
-  		return false;
+	  return false;
 	});
-});
-
-
-
-
-$( ".nav-toggle" ).click(function() {
-  $(this).toggleClass("open");
-  $("nav").fadeToggle(100);
-
-  return false;
 });
